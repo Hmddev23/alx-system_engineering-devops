@@ -1,2 +1,1 @@
-#!/bin/bash
-pwd
+alx system engineering-devops read me
