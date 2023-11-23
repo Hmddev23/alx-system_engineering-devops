@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# print list without number
+
+_ls=$(ls)
+for i in $_ls; do
+	echo "$i" | cut -d '-' -f2
+done
