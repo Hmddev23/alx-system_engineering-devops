@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# read and print the etc/passwd
+
+file="/etc/passwd"
+
+while IFS= read -r line; do
+	echo "$line" | cut -d ':' -f1,3,6
+done < "$file"
