@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+# ping an IP address passed as an argument.
+
+# variables
+IP="${1}"
+fct=$(basename "${BASH_SOURCE[@]}")
+
+if ! [ "$IP" ]; then
+	echo "Usage: ${fct} {IP_ADDRESS}"
+else
+	ping -c 5 "${IP}"
+fi
