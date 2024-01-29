@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# 0-Double the number of webservers
+sudo apt-get -y update
+sudo apt-get -y install nginx
