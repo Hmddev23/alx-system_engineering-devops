@@ -2,8 +2,8 @@
 """
 return information about his/her TODO list progress.
 """
-import sys
 import requests
+import sys
 
 
 if __name__ == "__main__":
