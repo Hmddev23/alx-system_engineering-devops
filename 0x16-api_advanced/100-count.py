@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-3. Count it! 
+3. Count it!
 """
 import requests
 
