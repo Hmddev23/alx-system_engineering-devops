@@ -10,7 +10,7 @@ def number_of_subscribers(subreddit):
     """
     return the number of subscribers for a given subreddit
     """
-    user = {'User-Agent': '/u/ledbag123 API Python for Alx School'}
+    user = {'user-agent': '/u/ledbag123 API Python for Alx School'}
     url = requests.get('https://www.reddit.com/r/{}/about.json'
                        .format(subreddit), headers=user).json()
     try:
